@@ -101,45 +101,6 @@ const quizData = [
   },
 ];
 ```
-
----
-
-### 4. Diseño de la Interfaz (HTML y CSS)
-
-#### index.html
-
-Estructura básica del documento:
-
-```html
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vokativa Trivia</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <!-- Todo Comienza en el HTML-->
-</body>
-</html>
-```
-
-#### styles.css
-
-Estilo para los elementos:
-
-```css
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f9;
-  color: #333;
-}
-/*Continuar ....*/
-```
-
 ---
 
 ### 5. Pruebas

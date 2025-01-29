@@ -35,7 +35,6 @@ Crea los siguientes archivos y carpetas:
 |-- index.html
 |-- styles.css
 |-- script.js
-|-- data.js
 ```
 
 #### Archivos Clave
@@ -46,21 +45,21 @@ Crea los siguientes archivos y carpetas:
 
 ---
 
-### 3. Array de Objetos `data.js`
+### 3. Array de Objetos
 
-Define las preguntas, opciones y respuestas correctas en un archivo JSON. Ejemplo:
+Define las preguntas, opciones y respuestas correctas. Ejemplo:
 
 ```javascript
 const quizData = [
-  {
+    {
     question: "¿En qué elemento HTML ponemos el código JavaScript?",
     options: {
-      a: "<js>",
-      b: "<script>",
-      c: "<body>",
-      d: "<link>"
+      a: "js",
+      b: "script",
+      c: "body",
+      d: "link",
     },
-    correct: "b"
+    correct: "b",
   },
   {
     question: "¿Qué atributo HTML se utiliza para hacer referencia a un archivo JavaScript externo?",
@@ -68,14 +67,39 @@ const quizData = [
       a: "src",
       b: "rel",
       c: "type",
-      d: "href"
+      d: "href",
     },
-    correct: "a"
-  }
-  // Agrega más preguntas aquí
+    correct: "a",
+  },
+  {
+    question: "¿Cómo escribirías 'Hola' en un cuadro de alerta?",
+    options: {
+      a: 'msg("Hello");',
+      b: 'alertBox("Hello");',
+      c: 'document.write("Hello");',
+      d: 'alert("Hello");',
+    },
+    correct: "d",
+  },
+  {
+    question: 'JavaScript está directamente relacionado con el lenguaje de programación "Java"',
+    options: {
+      a: "True",
+      b: "False",
+    },
+    correct: "b",
+  },
+  {
+    question: "Una variable en JavaScript debe comenzar con qué carácter especial",
+    options: {
+      a: "@",
+      b: "$",
+      c: "#",
+      d: "No Special Character",
+    },
+    correct: "d",
+  },
 ];
-
-export default quizData;
 ```
 
 ---

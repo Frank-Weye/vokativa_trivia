@@ -15,10 +15,11 @@ Antes de comenzar a codificar, asegúrate de tener el siguiente entorno listo:
 - **Editor de código:** Visual Studio Code, Sublime Text o cualquier otro.
 - **Navegador web:** Chrome, Firefox, o Edge para pruebas.
 - **Servidor local (opcional):** Puedes usar extensiones como "Live Server" en VS Code para recargar automáticamente.
-- **Git y Github:** Instala git localmente y crear cuenta en github.
+- **Git y Github:** Instala git localmente y crear cuenta en github. <br>
  **|- Git:**
   - https://git-scm.com/downloads (Windows)
   - https://kinsta.com/es/base-de-conocimiento/instalar-git/(Windows)
+  <br>
  **|- Github:**
   Configuración para inicializar con Github.
    - https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Configurando-Git-por-primera-vez

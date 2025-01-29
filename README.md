@@ -45,7 +45,7 @@ Crea los siguientes archivos y carpetas:
 
 ---
 
-### 3. Array de Objetos
+### 3. Array de Objetos (DEMO) - Usar tu creatividad y cambiar de temática.
 
 Define las preguntas, opciones y respuestas correctas. Ejemplo:
 
@@ -103,7 +103,7 @@ const quizData = [
 ```
 ---
 
-### 5. Pruebas
+### 4. Pruebas
 
 - Abre el archivo `index.html` en un navegador.
 - Asegúrate de que las preguntas se generan correctamente.
@@ -112,7 +112,7 @@ const quizData = [
 
 ---
 
-### 6. Opcional: Mejora con Funcionalidades
+### 5. Opcional: Mejora con Funcionalidades
 
 - Mostrar el puntaje final en pantalla en lugar de usar `alert()`.
 - Agregar un temporizador para completar la trivia **(OPCIONAL)**.

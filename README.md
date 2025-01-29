@@ -43,11 +43,10 @@ Crea los siguientes archivos y carpetas:
 1. **index.html:** Estructura base del HTML.
 2. **styles.css:** Estilos para la interfaz de usuario.
 3. **script.js:** Lógica principal de la aplicación.
-4. **data.js:** Datos de las preguntas y respuestas (Opcional). Se puede agregar los datos directamente en el archivo script.js.
 
 ---
 
-### 3. Creación del Archivo `data.js`
+### 3. Array de Objetos `data.js`
 
 Define las preguntas, opciones y respuestas correctas en un archivo JSON. Ejemplo:
 
@@ -119,20 +118,7 @@ body {
 
 ---
 
-### 5. Lógica en `script.js`
-
-#### Importar Datos
-
-```javascript
-const quizContainer = document.getElementById("quiz-container");
-const form = document.createElement("form");
-//Continuar ....
-
-```
-
----
-
-### 6. Pruebas
+### 5. Pruebas
 
 - Abre el archivo `index.html` en un navegador.
 - Asegúrate de que las preguntas se generan correctamente.
@@ -141,7 +127,7 @@ const form = document.createElement("form");
 
 ---
 
-### 7. Opcional: Mejora con Funcionalidades
+### 6. Opcional: Mejora con Funcionalidades
 
 - Mostrar el puntaje final en pantalla en lugar de usar `alert()`.
 - Agregar un temporizador para completar la trivia **(OPCIONAL)**.
